@@ -54,7 +54,6 @@ print(round(num1,3))
 
 a=1
 print(a**100)
-
 a=2
 print(a**16)
 
@@ -86,4 +85,22 @@ b=a-x
 c=11
 x=a-c
 print(a-c)
+
+
+
+text1='hello' # одинарные
+text2="world" # двойные
+text3='''qwerty''' #тройные
+print(text1,text2,text3)
+print("""hello world my name Vlad""")
+print("""hello
+world""")
+print(text1+" "+text2+" "+text3)
+print(text1*1+" "+text2*2+" "+text3*3)
+
+x="20"
+y="5"
+z="15"
+c=10
+print(int(x)+int(y)+int(z)+c)#дробные числа нельзя перобразовывать только целые
 
