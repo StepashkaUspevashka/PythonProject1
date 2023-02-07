@@ -102,5 +102,16 @@ x="20"
 y="5"
 z="15"
 c=10
-print(int(x)+int(y)+int(z)+c)#дробные числа нельзя перобразовывать только целые
+print(int(x)+int(y)+int(z)+c) #дробные числа нельзя перобразовывать только целые
 
+
+
+
+str1="string"
+print(str1[0],str1[2],str1[3],str1[4],str1[5])
+print(str1[0],str1[2],str1[4])
+print(str1[1],str1[3],str1[5])
+print(str1[5::-1])
+print(str1[-6:6])
+print(str1[-5:6])
+print(str1[-2:-4:-1])
